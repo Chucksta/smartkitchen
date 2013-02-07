@@ -22,14 +22,17 @@ Note the following:
 7. To learn more about HTML frames, check out: http://www.quackit.com/html/tutorial/html_frames.cfm
 -->
 
-<frameset rows="100,*,80" frameborder="0" border="0" framespacing="0">
+<frameset rows="100,*" frameborder="2" border="5" framespacing="0">
   <frame name="topNav" src="top_nav.html">
-<frameset cols="200,*" frameborder="0" border="0" framespacing="0">
+<frameset cols="200,*,255" frameborder="0" border="0" framespacing="0">
 	<frame name="menu" src="menu_1.html" marginheight="0" marginwidth="0" scrolling="auto" noresize>
 	<frame name="content" src="content.html" marginheight="0" marginwidth="0" scrolling="auto" noresize>
+	<frame name="music" src="footer.html" marginheight="0" marginwidth="0" scrolling="no" noresize>
 </frameset>
 
-  <frame name="footer" src="footer.html">
+
+ <!-- <frame name="footer" src="footer.html">-->
+
 
 <noframes>
 <p>This section (everything between the 'noframes' tags) will only be displayed if the users' browser doesn't support frames. You can provide a link to a non-frames version of the website here. Feel free to use HTML tags within this section.</p>
