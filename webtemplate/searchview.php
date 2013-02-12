@@ -5,8 +5,9 @@
         <title></title>
     </head>
     <body>
-        <input type="button" value="Return to Homepage" onClick="location.href='index.php'">
-        <?php
+        <input type="button" value="Return to Homepage" onClick="location.href='content.html'">
+        
+		<?php
         $connect = mysql_connect('localhost', 'root', '') or die(mysql_error());
         mysql_select_db('smartkitchen') or die(mysql_error());
 
